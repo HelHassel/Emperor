@@ -1,7 +1,72 @@
+/* Body CSS */
 body {
-  width: 1920px;
-  height: 1080px;
   background: url(Assets/Noise_1.png);
+  background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
-  background-size: auto;
 }
+
+/* Using Custom Font */
+@font-face {
+  font-family: Abang-Fashion;
+  src: url(Assets/Abang-Fashion.otf);
+}
+
+/* Main EMPEROR */
+.centered-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  color: #fff;
+  font-family: Abang-Fashion;
+  font-size: 250px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+/* Navbar Start*/
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-div {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.logo {
+  float: left;
+  padding-top: 14px;
+  padding-left: 8px;
+  padding-right: 6px;
+}
+
+.left-links {
+  float: left;
+}
+
+.right-links {
+  float: right;
+}
+/* Navbar End*/

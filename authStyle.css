@@ -1,0 +1,70 @@
+body {
+  background: #000;
+}
+
+/* Navbar Start*/
+nav {
+  overflow: hidden;
+}
+
+nav a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.nav-div {
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  color: #fff;
+  text-align: center;
+  font-family: Helvetica;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.logo {
+  float: left;
+}
+
+.left-links {
+  float: left;
+}
+
+.right-links {
+  float: right;
+}
+/* Navbar End*/
+
+/* Form Start */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form-group {
+  color: rgba(255, 255, 255, 0.7);
+  font-family: Helvetica;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.submit {
+  color: rgba(255, 255, 255, 0.8);
+  font-family: Helvetica;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

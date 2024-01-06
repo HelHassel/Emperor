@@ -1,6 +1,8 @@
 /* Body CSS */
 body {
-  background: url(Assets/Noise_1.png);
+  width: 1920px;
+  height: 1080px;
+  background: url(Assets/Emperor\ Red\ Noise\ 2.gif);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -12,7 +14,7 @@ body {
   src: url(Assets/Abang-Fashion.otf);
 }
 
-/* Main EMPEROR */
+/* Main EMPEROR
 .centered-div {
   display: flex;
   justify-content: center;
@@ -25,7 +27,7 @@ body {
   font-style: normal;
   font-weight: 900;
   line-height: normal;
-}
+} */
 
 /* Navbar Start*/
 nav {
@@ -51,15 +53,12 @@ nav a {
   font-family: Helvetica;
   font-size: 18px;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 700;
   line-height: normal;
 }
 
 .logo {
   float: left;
-  padding-top: 14px;
-  padding-left: 8px;
-  padding-right: 6px;
 }
 
 .left-links {

@@ -1,11 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sign In</title>
-</head>
-<body>
-    <h1>This is Sign In Page.</h1>
-</body>
+    <link rel="stylesheet" href="authStyle.css" />
+  </head>
+  </head>
+  <body>
+    <!-- NavBar Start -->
+    <div class="nav-div">
+      <nav>
+        <div class="logo">
+          <a href="index.html"
+            ><img
+              src="Assets/Logo.svg"
+              alt="logo"
+              style="width: 67px; height: 19px"
+          /></a>
+        </div>
+        <div class="left-links">
+            <a href="index.html">Home</a>
+            <a href="store.html">Store</a>
+            <a href="create.html">Create</a>
+          </div>
+        <div class="right-links">
+          <a href="auth.html">Sign In</a>
+        </div>
+      </nav>
+    </div>
+    <!-- NavBar End -->
+    <!-- Login Form Start -->
+    <p>Login</p>
+    <div class="login-container">
+        <form class="login-form" action="process-login.php" method="post">
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required>
+          </div>
+          <br>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+          </div>
+          <br>
+          <div class="submit">
+            <input type="submit" value="Sign In">
+          </div>
+        </form>
+      </div>
+      <!-- Login Form End -->
+  </body>
 </html>
